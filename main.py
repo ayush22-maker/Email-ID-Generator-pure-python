@@ -59,13 +59,19 @@ def main():
 
     Start_letter = random.choice(list)
     end_letter = random.choice(list)
+    Start_letter1 = random.choice(list)
+    end_letter1 = random.choice(list)
+    Start_letter2 = random.choice(list)
+    end_letter2 = random.choice(list)
+    Start_letter3 = random.choice(list)
+    end_letter3 = random.choice(list)
 
     # Generating the Email;
 
     email1 = f"{Start_letter}_{end_letter}_{number}@gmail.com"
-    email2 = f"{Start_letter}_{end_letter}_{number}@gmail.com"
-    email3 = f"{Start_letter}_{end_letter}_{number}@gmail.com"
-    email4 = f"{Start_letter}_{end_letter}_{number}@gmail.com"
+    email2 = f"{Start_letter1}_{end_letter1}_{number}@gmail.com"
+    email3 = f"{Start_letter2}_{end_letter2}_{number}@gmail.com"
+    email4 = f"{Start_letter3}_{end_letter3}_{number}@gmail.com"
 
     # Printing the Email of user in another file and in the terminal
 
